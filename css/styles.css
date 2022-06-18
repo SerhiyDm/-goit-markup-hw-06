@@ -1001,6 +1001,10 @@ letter-spacing: 0.01em;
 
 }
 
+.modal-label.comment {
+    margin-bottom: 4px;
+}
+
 
 .modal-field-consent {
     padding-left: 12px;
