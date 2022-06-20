@@ -139,7 +139,7 @@
           <img src="./images/card1.jpg" alt="Игорь Демьяненко Product Designer" width="270" />
              <div class="team-description">
                <h3 class="team-title">Игорь Демьяненко</h3>
-                <div class="team-team"><p lang="en">Product Designer</p></div>
+                <p lang="en" class="team-team">Product Designer</p>
                 <ul class="social-links list">
                 <li class="item-social-links"><a href="" class="social-link link" aria-label="instagram link">
                     <svg class="social-link-svg" width="20" height="20">
@@ -169,7 +169,7 @@
            <img src="images/card2.jpg" alt="Ольга Репина Frontend Developer" width="270" />
              <div class="team-description">
                <h3 class="team-title">Ольга Репина</h3>
-                <div class="team-team"><p lang="en">Frontend Developer</p></div>
+                <p lang="en" class="team-team">Frontend Developer</p>
                 <ul class="social-links list">
                 <li class="item-social-links"><a href="" class="social-link link" aria-label="instagram link">
                     <svg class="social-link-svg" width="20" height="20">
@@ -198,7 +198,7 @@
            <img src="./images/card3.jpg" alt="Николай Тарасов Marketing " width="270" />
                <div class="team-description">
                  <h3 class="team-title">Николай Тарасов</h3>
-                <div class="team-team"><p lang="en">Marketing</p></div>
+                <p lang="en" class="team-team">Marketing</p>
                 <ul class="social-links list">
                 <li class="item-social-links"><a href="" class="social-link link" aria-label="instagram link">
                     <svg class="social-link-svg" width="20" height="20">
@@ -227,7 +227,7 @@
             <img src="./images/card4.jpg" alt="Михаил Ермаков UI Designer" width="270" />
                  <div class="team-description">
                    <h3 class="team-title">Михаил Ермаков</h3>
-                <div class="team-team"><p lang="en">UI Designer</p></div>
+                <p lang="en" class="team-team">UI Designer</p>
                 <ul class="social-links list">
                 <li class="item-social-links"><a href="" class="social-link link" aria-label="instagram link">
                     <svg class="social-link-svg" width="20" height="20">
@@ -316,13 +316,17 @@
         </ul>
       </div>
 <div class="third-group">
-  <label for="subscription-mail" class="subscription-label">подпишитесь на рассылку</label>
+  <p class="appeals-title">подпишитесь на рассылку</p>
+  <form>
   <div class="subscription-fields-wrap">
-  <input type="email" name="subscription" placeholder="E-mail " id="subscription-mail" class="subscription-field"/>
+  <input type="email" name="subscription" placeholder=" " id="subscription-mail" class="subscription-field"/>
+  <label for="subscription-mail" class="subscription-label">E-mail</label>
   <button type="submit" class="button-send subscription-button"><span class="subscription-button-text">Подписаться</span>
     <svg class="subscription-svg" width="24" height="24" ><use href="./images/icons.svg#icon-icon-send"></use></svg>
   </button>
+  </form>
   </div>
+  
 </div>
     </div>
     </footer>
@@ -376,11 +380,7 @@
             <a href="" class="conditions link">Условия договора</a>
             </label>
             </div>
-            <div class="button-send-container">
-            <button type="submit" class="button-send" >Отправить</button>
-            </div>
-            
-          
+            <button type="submit" class="button-send button-modal" >Отправить</button>
         </form>
       </div>
     </div>
